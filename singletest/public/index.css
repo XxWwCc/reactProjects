@@ -1,0 +1,75 @@
+body{
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,p,ul,li{
+    font-family: 'Courier New', Courier, monospace;
+}
+ul.header li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.header{
+    background-color: #111;
+    padding: 0;
+}
+ul.header li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+.active{
+    background-color: #0099FF;
+}
+#upload{
+    text-align: center; /*让div内部文字居中*/
+    background-color: #fff;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+input.ed{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #99CCFF;
+    border-width: 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input.bt{
+    border-style: solid;
+    border-color: #99CCFF;
+    border-radius: 15px;
+    border-width: 0.5px;
+    width: 200px;
+    background-color: #99CCFF;
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+input.bt:hover{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #99CCFF;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #99CCFF;
+    width: 200px;
+    padding: 5px;
+    box-shadow:none;
+}
+img{
+    height: 50px;
+    width: 50px; 
+}
